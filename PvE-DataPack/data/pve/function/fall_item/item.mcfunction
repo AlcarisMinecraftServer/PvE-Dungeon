@@ -1,4 +1,4 @@
-# アイテムアマスタ常時回転
+## アイテムアマスタ常時回転ファイル
 
 scoreboard players add 落下アイテム PvE_fall_item 1
 execute if score 落下アイテム PvE_fall_item matches 50..100 run execute as @e[tag=pve_item] at @s run tp @s ~ ~-0.015 ~
